@@ -1,0 +1,40 @@
+.post {
+	max-width: rem(700px);
+	margin: auto;
+}
+
+.post-title {
+	font-size: rem(33px);
+	line-height: 1.1;
+	font-weight: 700;
+	font-family: $font-polysans;
+}
+
+.post-featured-image {
+	figcaption {
+		color: #636363;
+		font-family: $font-polysans-mono;
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.post-body {
+	max-width: rem(600px);
+	margin-left: auto;
+
+	& > *:not(:last-child) {
+		margin-bottom: rem(20px);
+	}
+
+	p {
+		color: #000;
+		font-size: rem(18px);
+		line-height: 1.6;
+		letter-spacing: -0.01em;
+		font-family: $font-fkroman;
+	}
+}

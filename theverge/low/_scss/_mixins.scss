@@ -1,0 +1,5 @@
+// rem($target)
+@function rem($target, $default-font-size:16px) {
+	@if $target == 0 { @return 0 }
+	@return 1rem * $target / $default-font-size;
+}
