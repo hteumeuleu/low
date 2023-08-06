@@ -1,0 +1,242 @@
+@font-face {
+  font-family:__fkRomanStandard_6bdc6d;
+  src:url(../../og/assets/b61d461e2e1d8573-s.p.woff2) format("woff2");
+  font-display:swap;
+  font-weight:400;
+  font-style:normal
+}
+@font-face {
+  font-family:__fkRomanStandard_6bdc6d;
+  src:url(../../og/assets/af51b8e80b7e5b97-s.p.woff2) format("woff2");
+  font-display:swap;
+  font-weight:400;
+  font-style:italic
+}
+@font-face {
+  font-family:__fkRomanStandard_6bdc6d;
+  src:url(../../og/assets/4c161430243654b9-s.p.woff2) format("woff2");
+  font-display:swap;
+  font-weight:700;
+  font-style:normal
+}
+@font-face {
+  font-family:__fkRomanStandard_6bdc6d;
+  src:url(../../og/assets/faa4a7ab7fe4ff34-s.p.woff2) format("woff2");
+  font-display:swap;
+  font-weight:700;
+  font-style:italic
+}
+@font-face {
+  font-family:__fkRomanStandard_Fallback_6bdc6d;
+  src:local("Times New Roman");
+  ascent-override:80.77%;
+  descent-override:26.92%;
+  line-gap-override:0.00%;
+  size-adjust:118.86%
+}
+@font-face {
+	font-family:__manuka_e0d4a3;
+	src:url(../../og/assets/e0d450417c4fcdb2-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:900;
+	font-style:normal
+}
+@font-face {
+	font-family:__manuka_e0d4a3;
+	src:url(../../og/assets/c6806ee6b9a6284f-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:1000;
+	font-style:normal
+}
+@font-face {
+	font-family:__manuka_Fallback_e0d4a3;
+	src:local("Arial");
+	ascent-override:184.06%;
+	descent-override:25.82%;
+	line-gap-override:0.00%;
+	size-adjust:48.41%
+}
+@font-face {
+	font-family:__polySans_c60300;
+	src:url(../../og/assets/167de315d6f8820c-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:300;
+	font-style:normal
+}
+@font-face {
+	font-family:__polySans_c60300;
+	src:url(../../og/assets/c32d4f9e62509b70-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:300;
+	font-style:italic
+}
+@font-face {
+	font-family:__polySans_c60300;
+	src:url(../../og/assets/8314bd48671746e7-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:400;
+	font-style:normal
+}
+@font-face {
+	font-family:__polySans_c60300;
+	src:url(../../og/assets/1acdcb23bd60cdf8-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:400;
+	font-style:italic
+}
+@font-face {
+	font-family:__polySans_c60300;
+	src:url(../../og/assets/e334064d2786be51-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:500;
+	font-style:normal
+}
+@font-face {
+	font-family:__polySans_c60300;
+	src:url(../../og/assets/dbe24bfb7e9bcd79-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:500;
+	font-style:italic
+}
+@font-face {
+	font-family:__polySans_c60300;
+	src:url(../../og/assets/caa65695070c604f-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:700;
+	font-style:normal
+}
+@font-face {
+	font-family:__polySans_c60300;
+	src:url(../../og/assets/7f8638c9585902a6-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:700;
+	font-style:italic
+}
+@font-face {
+	font-family:__polySans_c60300;
+	src:url(../../og/assets/d2cd5f6e542bad4c-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:350;
+	font-style:normal
+}
+@font-face {
+	font-family:__polySans_c60300;
+	src:url(../../og/assets/857aa1a339c7fe20-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:350;
+	font-style:italic
+}
+@font-face {
+	font-family:__polySans_c60300;
+	src:url(../../og/assets/516340c748fee9da-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:450;
+	font-style:normal
+}
+@font-face {
+	font-family:__polySans_c60300;
+	src:url(../../og/assets/1acdcb23bd60cdf8-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:450;
+	font-style:italic
+}
+@font-face {
+	font-family:__polySans_c60300;
+	src:url(../../og/assets/afa7a955b67174eb-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:550;
+	font-style:normal
+}
+@font-face {
+	font-family:__polySans_c60300;
+	src:url(../../og/assets/d2ddd5a6c0493c79-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:550;
+	font-style:italic
+}
+@font-face {
+	font-family:__polySans_Fallback_c60300;
+	src:local("Arial");
+	ascent-override:95.01%;
+	descent-override:18.10%;
+	line-gap-override:0.00%;
+	size-adjust:106.09%
+}
+@font-face {
+	font-family:__polySansMono_0d16dc;
+	src:url(../../og/assets/d2cd5f6e542bad4c-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:300;
+	font-style:normal
+}
+@font-face {
+	font-family:__polySansMono_0d16dc;
+	src:url(../../og/assets/857aa1a339c7fe20-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:300;
+	font-style:italic
+}
+@font-face {
+	font-family:__polySansMono_0d16dc;
+	src:url(../../og/assets/516340c748fee9da-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:400;
+	font-style:normal
+}
+@font-face {
+	font-family:__polySansMono_0d16dc;
+	src:url(../../og/assets/70754f98ca969379-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:400;
+	font-style:italic
+}
+@font-face {
+	font-family:__polySansMono_0d16dc;
+	src:url(../../og/assets/afa7a955b67174eb-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:500;
+	font-style:normal
+}
+@font-face {
+	font-family:__polySansMono_0d16dc;
+	src:url(../../og/assets/d2ddd5a6c0493c79-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:500;
+	font-style:italic
+}
+@font-face {
+	font-family:__polySansMono_0d16dc;
+	src:url(../../og/assets/afa7a955b67174eb-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:550;
+	font-style:normal
+}
+@font-face {
+	font-family:__polySansMono_0d16dc;
+	src:url(../../og/assets/d2ddd5a6c0493c79-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:550;
+	font-style:italic
+}
+@font-face {
+	font-family:__polySansMono_0d16dc;
+	src:url(../../og/assets/60369a8d37d9d5b8-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:700;
+	font-style:normal
+}
+@font-face {
+	font-family:__polySansMono_0d16dc;
+	src:url(../../og/assets/96fec850ad729c00-s.p.woff2) format("woff2");
+	font-display:swap;
+	font-weight:700;
+	font-style:italic
+}
+@font-face {
+	font-family:__polySansMono_Fallback_0d16dc;
+	src:local("Arial");
+	ascent-override:75.65%;
+	descent-override:14.41%;
+	line-gap-override:0.00%;
+	size-adjust:133.24%
+}

@@ -6,4 +6,10 @@
 
 body {
 	background: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+img {
+	vertical-align: middle;
 }

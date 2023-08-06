@@ -1,0 +1,8 @@
+.header {
+	min-height: rem(72px);
+
+	@media only screen and (min-width: $tablet-min) {
+		min-height: rem(120px);
+		margin-bottom: rem(170px);
+	}
+}
