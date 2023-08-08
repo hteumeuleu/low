@@ -1,5 +1,5 @@
 .post {
-	margin: auto;
+	margin: auto auto rem(24px);
 	padding-inline: rem(20px);
 
 	@media only screen and (min-width: $tablet-min) {
@@ -183,5 +183,16 @@
 		text-decoration: underline;
 		text-decoration-thickness: rem(1px);
 		text-underline-offset: 0.25em;
+	}
+
+	img {
+		display: block;
+		max-width: 100%;
+		max-height: 100%;
+		height: auto;
+		object-fit: cover;
+		background-color: #e9e9e9;
+		margin-top: rem(36px);
+		margin-bottom: rem(36px);
 	}
 }
