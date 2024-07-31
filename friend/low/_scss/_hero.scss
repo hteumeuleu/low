@@ -1,0 +1,45 @@
+.hero {
+	display: grid;
+	animation: heroFadeInView ease-out 0.5s;
+
+	& > * {
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;
+	}
+}
+
+.hero-img {
+	width: 100%;
+	height: auto;
+	min-height: rem(640px);
+	max-height: calc(100vh - #{rem(20px)});
+	object-fit: cover;
+	border-radius: rem(16px);
+	overflow: hidden;
+	background-color: #e5e2df;
+}
+
+.hero-body {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	padding: rem(12px);
+	animation: heroFadeInView ease-out 0.5s;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+
+	@media only screen and (min-width: rem(768px)) {
+		padding: rem(40px) rem(40px) rem(67px);
+	}
+}
+
+@keyframes heroFadeInView {
+	from {
+		opacity:0;
+		transform: translateY(#{rem(20px)});
+	}
+	to {
+		opacity:1;
+		transform: translateY(0);
+	}
+}

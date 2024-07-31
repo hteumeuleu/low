@@ -5,3 +5,7 @@
 * **Study 1:** `theverge`
 	- [OG](/theverge/og/)
 	- [LOW](/theverge/low/)
+
+* **Study 2:** `friend.com`
+	- [OG](/friend/og/)
+	- [LOW](/friend/low/)
