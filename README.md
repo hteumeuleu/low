@@ -9,3 +9,6 @@
 * **Study 2:** `friend.com`
 	- [OG](/friend/og/)
 	- [LOW](/friend/low/)
+
+* **Study 3:** `openai.com/sam-and-jony/`
+	- [LOW](/sam-and-jony/low/)
